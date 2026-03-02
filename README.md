@@ -15,22 +15,22 @@ This project aims to build an **AI-based Fake Review Detection System** that aut
 ---
 
 ## 🎯 Project Objectives
-- Detect fake product reviews using NLP techniques
-- Build and use a large, clean, high-confidence dataset
-- Train a supervised Machine Learning classification model
-- Deploy the model as a real-time web application
-- Create a professional, production-ready GitHub project
+- Detect fake product reviews using NLP techniques  
+- Build and use a large, clean, high-confidence dataset  
+- Train a supervised Machine Learning classification model  
+- Deploy the model as a real-time web application  
+- Create a professional, production-ready GitHub project  
 
 ---
 
 ## 🚀 Key Features
-- Fake vs Genuine review classification
-- Advanced text preprocessing
-- TF-IDF based feature extraction
-- Logistic Regression classifier
-- Prediction confidence score
-- Clean and creative Streamlit UI
-- Scalable and industry-oriented design
+- Fake vs Genuine review classification  
+- Advanced text preprocessing  
+- TF-IDF based feature extraction  
+- Logistic Regression classifier  
+- Prediction confidence score  
+- Clean and creative Streamlit UI  
+- Scalable and industry-oriented design  
 
 ---
 
@@ -43,28 +43,28 @@ This project aims to build an **AI-based Fake Review Detection System** that aut
 - Clean and noise-free data for reliable training
 
 ### 2️⃣ Text Preprocessing
-- Convert text to lowercase
-- Remove punctuation and special characters
-- Normalize whitespace
-- Ensure consistent preprocessing for training and prediction
+- Convert text to lowercase  
+- Remove punctuation and special characters  
+- Normalize whitespace  
+- Ensure consistent preprocessing for training and prediction  
 
 ### 3️⃣ Feature Engineering
-- TF-IDF Vectorization
-- Unigrams and Bigrams
-- Stop-word removal
-- Maximum feature optimization for accuracy
+- TF-IDF Vectorization  
+- Unigrams and Bigrams  
+- Stop-word removal  
+- Maximum feature optimization for accuracy  
 
 ### 4️⃣ Model Training
-- Logistic Regression classifier
-- Balanced class weights
-- Train-test split for evaluation
-- High accuracy due to clean and structured data
+- Logistic Regression classifier  
+- Balanced class weights  
+- Train-test split for evaluation  
+- High accuracy due to clean and structured data  
 
 ### 5️⃣ Model Deployment
-- Streamlit web application
-- Real-time review analysis
-- User-friendly and professional UI
-- Confidence visualization for predictions
+- Streamlit web application  
+- Real-time review analysis  
+- User-friendly and professional UI  
+- Confidence visualization for predictions  
 
 ---
 
@@ -80,11 +80,48 @@ This project aims to build an **AI-based Fake Review Detection System** that aut
 
 ### Label Description
 | Label | Meaning |
-|-----|--------|
+|------|--------|
 | 1 | Genuine Review |
 | 0 | Fake Review |
 
 > Note: Labels are high-confidence and designed to reflect realistic fake and genuine review behavior.
+
+---
+
+## 🖥️ Web Application Screenshots
+
+### 🔹 Application Overview (input0)
+Overview of the Streamlit web application interface.
+
+![App Overview](images/input0.png)
+
+---
+
+### 🔹 User Review Input (input1)
+User enters an e-commerce product review for analysis.
+
+![User Input](images/input1.png)
+
+---
+
+### 🔹 Prediction Output – Result (output1)
+The system predicts whether the review is Fake or Genuine along with confidence score.
+
+![Prediction Output](images/output1.png)
+
+---
+
+### 🔹 Another Review Input Example (input2)
+Testing the model with a different review text.
+
+![Second Input](images/input2.png)
+
+---
+
+### 🔹 Prediction Output – Result (output2)
+Final output displayed for the second input review.
+
+![Second Output](images/output2.png)
 
 ---
 
@@ -97,9 +134,47 @@ This project aims to build an **AI-based Fake Review Detection System** that aut
 
 ---
 
+
+### 📁 Project Structure
+Fake-Review-Detection/
+│
+├── data/
+│   └── fake_genuine_large_high_confidence_reviews.csv
+│
+├── images/
+│   ├── input0.png        # Application overview
+│   ├── input1.png        # User input example
+│   ├── output1.png       # Prediction output
+│   ├── input2.png        # Another test input
+│   └── output2.png       # Final output result
+│
+├── model/
+│   ├── fake_review_model.pkl
+│   └── tfidf_vectorizer.pkl
+│
+├── train_model.py        # Model training script
+├── app.py                # Streamlit web application
+├── requirements.txt      # Project dependencies
+└── README.md             # Project documentation
+
+
+---
 ## ▶️ How to Run the Project
 
-### 1️⃣ Clone the Repository
-```bash
+## 1. Clone the Repository
+
 git clone <your-github-repo-link>
 cd Fake-Review-Detection
+
+## 2️. Install Required Dependencies
+ 
+pip install -r requirements.txt
+
+## 3️. Train the Machine Learning Model
+ 
+python train_model.py
+
+## 4️. Run the Streamlit Web App
+streamlit run app.py
+
+---

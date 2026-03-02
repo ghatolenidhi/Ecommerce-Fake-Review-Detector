@@ -143,7 +143,7 @@ Fake-Review-Detection/
 │
 ├── images/
 │   ├── input0.png        # Application overview
-│   ├── input1.png        # User input example
+│   ├── input.png        # User input example
 │   ├── output1.png       # Prediction output
 │   ├── input2.png        # Another test input
 │   └── output2.png       # Final output result
@@ -178,3 +178,4 @@ python train_model.py
 streamlit run app.py
 
 ---
+

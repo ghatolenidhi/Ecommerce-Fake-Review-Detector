@@ -97,7 +97,7 @@ Overview of the Streamlit web application interface.
 
 ---
 
-### 🔹 User Review Input (input)
+### 🔹 User Review Input (input1)
 User enters an e-commerce product review for analysis.
 
 ![User Input](images/input1.png)
@@ -143,7 +143,7 @@ Fake-Review-Detection/
 │
 ├── images/
 │   ├── input0.png        # Application overview
-│   ├── input.png        # User input example
+│   ├── input1.png        # User input example
 │   ├── output1.png       # Prediction output
 │   ├── input2.png        # Another test input
 │   └── output2.png       # Final output result
@@ -178,5 +178,6 @@ python train_model.py
 streamlit run app.py
 
 ---
+
 
 

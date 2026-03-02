@@ -97,7 +97,7 @@ Overview of the Streamlit web application interface.
 
 ---
 
-### 🔹 User Review Input (input1)
+### 🔹 User Review Input (input)
 User enters an e-commerce product review for analysis.
 
 ![User Input](images/input1.png)
@@ -178,4 +178,5 @@ python train_model.py
 streamlit run app.py
 
 ---
+
 

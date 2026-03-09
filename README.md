@@ -136,6 +136,7 @@ Final output displayed for the second input review.
 
 
 ### 📁 Project Structure
+```text
 Fake-Review-Detection/
 │
 ├── data/
@@ -156,7 +157,7 @@ Fake-Review-Detection/
 ├── app.py                # Streamlit web application
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
-
+```
 
 ---
 ## ▶️ How to Run the Project
@@ -178,6 +179,7 @@ python train_model.py
 streamlit run app.py
 
 ---
+
 
 
 
